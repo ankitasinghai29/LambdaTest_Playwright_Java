@@ -45,6 +45,6 @@ public class UtilityMethod {
 
 	public void isHighlighted(Locator ele)
 	{
-		assertThat(ele).hasCSS("background-color", "rgb(14, 186, 197)");
+		assertThat(ele).hasCSS("background-color", "#0ebac5");
 	}
 }

@@ -39,14 +39,18 @@ public class LoginPage
 		loginButton().click();
 	}
 
-	
-	public void clickonContinueUnderNewUser()
-	{
-		page.getByText("Continue").click();
-	}
-	
 	public Locator getWarningMessage()
 	{
 		return page.locator(" //div[contains(.,\"Warning\")]").last();
 	}
+	
+	public Locator getContinueButtonUnderNewUser()
+	{
+		return page.getByText("Continue");
+	}
+	
+    public Locator getRegisterLink()
+    {
+    	return page.getByText(" Register").last();
+    }
 }
