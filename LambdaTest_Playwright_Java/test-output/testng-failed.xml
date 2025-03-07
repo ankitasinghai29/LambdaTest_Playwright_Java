@@ -3,15 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC06_EditProfile_Test">
+      <class name="TC07_ChangePassword">
         <methods>
-          <include name="validateUserIsAbleToGetEditProfileField"/>
+          <include name="validateUserIsAbleToGoBackToMyAccountPage"/>
+          <include name="validateUserIsAbleToGetChangePasswordField"/>
+          <include name="validateUserIsAbleToChangePassword"/>
           <include name="OpenContextandPage"/>
+          <include name="validateUserIsUnableToChangePassword_WithEmptyFields"/>
           <include name="launchBrowser"/>
+          <include name="validateUserIsUnableToChangePassword_WithDifferentPassword"/>
+          <include name="validateUserIsUnableToChangePassword_WithLessNoOfCharInPassword"/>
           <include name="closeBrowser"/>
           <include name="closeContextandPage"/>
         </methods>
-      </class> <!-- TC06_EditProfile_Test -->
+      </class> <!-- TC07_ChangePassword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

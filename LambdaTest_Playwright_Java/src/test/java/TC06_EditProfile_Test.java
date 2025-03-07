@@ -101,17 +101,20 @@ public class TC06_EditProfile_Test extends Base{
 		getEditProfilePage();
 		String email = fk.name().username(); //username without @
 		ep.getEmailId().fill(email);
+//		page.onDialog(alert -> {
+//			System.out.println(alert.message());
+//		});
+//		page.onPopup(popup -> {
+//			  popup.waitForLoadState();
+//			  System.out.println(popup.title());
+//			});
 		ep.getContinueButton().click();
+		um.hasTitle("My Account Information");
 		
-		page.onceDialog(alert -> {
-			System.out.println(alert.message());
-		});
 	}
 	
 	public void getEditProfilePage() throws Throwable
 	{
-		HeaderSection hs = new HeaderSection(page);
-		hs.clickLoginIcon();
 		LoginCommon lc = new LoginCommon();
 		lc.loginIntoApplication(page);
 		ep.getEditAccountInformationIcon().click();
