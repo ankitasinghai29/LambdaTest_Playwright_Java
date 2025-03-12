@@ -30,7 +30,7 @@ public class UtilityMethod {
 	
 	public void hasText(Locator ele,String value)
 	{
-		assertThat(ele).hasText(value);
+		assertThat(ele).hasText(value);;
 	}
 	
 	public void hasTitle(String title)
@@ -52,4 +52,5 @@ public class UtilityMethod {
 	{
 		assertThat(ele).hasValue(value);
 	}
+
 }

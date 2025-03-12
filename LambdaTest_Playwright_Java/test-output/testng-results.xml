@@ -1,93 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-07T15:54:08 IST" name="Default suite" finished-at="2025-03-07T15:56:01 IST" duration-ms="112098">
+  <suite started-at="2025-03-12T16:11:41 IST" name="Default suite" finished-at="2025-03-12T16:12:14 IST" duration-ms="32682">
     <groups>
     </groups>
-    <test started-at="2025-03-07T15:54:08 IST" name="Default test" finished-at="2025-03-07T15:56:01 IST" duration-ms="112098">
-      <class name="TC07_ChangePassword">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:08 IST" name="launchBrowser" finished-at="2025-03-07T15:54:20 IST" duration-ms="11814" status="PASS">
+    <test started-at="2025-03-12T16:11:41 IST" name="Default test" finished-at="2025-03-12T16:12:14 IST" duration-ms="32682">
+      <class name="TC08_AddAddress">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:11:41 IST" name="launchBrowser" finished-at="2025-03-12T16:11:48 IST" duration-ms="6391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:20 IST" name="OpenContextandPage" finished-at="2025-03-07T15:54:27 IST" duration-ms="6598" status="PASS">
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:11:48 IST" name="OpenContextandPage" finished-at="2025-03-12T16:12:00 IST" duration-ms="11965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsAbleToChangePassword()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:27 IST" name="validateUserIsAbleToChangePassword" finished-at="2025-03-07T15:54:39 IST" duration-ms="11716" status="PASS">
+        <test-method signature="validateUserIsAbleToAddNewAddress_withValidData()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:00 IST" name="validateUserIsAbleToAddNewAddress_withValidData" finished-at="2025-03-12T16:12:13 IST" duration-ms="13401" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUserIsAbleToChangePassword -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:39 IST" name="closeContextandPage" finished-at="2025-03-07T15:54:39 IST" duration-ms="561" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:39 IST" name="OpenContextandPage" finished-at="2025-03-07T15:54:45 IST" duration-ms="5432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsAbleToGetChangePasswordField()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:45 IST" name="validateUserIsAbleToGetChangePasswordField" finished-at="2025-03-07T15:54:54 IST" duration-ms="9463" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserIsAbleToGetChangePasswordField -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:54 IST" name="closeContextandPage" finished-at="2025-03-07T15:54:54 IST" duration-ms="338" status="PASS">
+        </test-method> <!-- validateUserIsAbleToAddNewAddress_withValidData -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:13 IST" name="closeContextandPage" finished-at="2025-03-12T16:12:14 IST" duration-ms="478" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:54:54 IST" name="OpenContextandPage" finished-at="2025-03-07T15:55:00 IST" duration-ms="5987" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsAbleToGoBackToMyAccountPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:00 IST" name="validateUserIsAbleToGoBackToMyAccountPage" finished-at="2025-03-07T15:55:11 IST" duration-ms="10288" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserIsAbleToGoBackToMyAccountPage -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:11 IST" name="closeContextandPage" finished-at="2025-03-07T15:55:11 IST" duration-ms="331" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:11 IST" name="OpenContextandPage" finished-at="2025-03-07T15:55:16 IST" duration-ms="4619" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsUnableToChangePassword_WithDifferentPassword()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:16 IST" name="validateUserIsUnableToChangePassword_WithDifferentPassword" finished-at="2025-03-07T15:55:27 IST" duration-ms="10872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserIsUnableToChangePassword_WithDifferentPassword -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:27 IST" name="closeContextandPage" finished-at="2025-03-07T15:55:27 IST" duration-ms="351" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:27 IST" name="OpenContextandPage" finished-at="2025-03-07T15:55:32 IST" duration-ms="5040" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsUnableToChangePassword_WithEmptyFields()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:32 IST" name="validateUserIsUnableToChangePassword_WithEmptyFields" finished-at="2025-03-07T15:55:43 IST" duration-ms="11041" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserIsUnableToChangePassword_WithEmptyFields -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:43 IST" name="closeContextandPage" finished-at="2025-03-07T15:55:44 IST" duration-ms="744" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:44 IST" name="OpenContextandPage" finished-at="2025-03-07T15:55:49 IST" duration-ms="5510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsUnableToChangePassword_WithLessNoOfCharInPassword()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:55:49 IST" name="validateUserIsUnableToChangePassword_WithLessNoOfCharInPassword" finished-at="2025-03-07T15:56:00 IST" duration-ms="10342" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateUserIsUnableToChangePassword_WithLessNoOfCharInPassword -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:56:00 IST" name="closeContextandPage" finished-at="2025-03-07T15:56:00 IST" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC07_ChangePassword@4db10b9f]" started-at="2025-03-07T15:56:00 IST" name="closeBrowser" finished-at="2025-03-07T15:56:01 IST" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:14 IST" name="closeBrowser" finished-at="2025-03-12T16:12:14 IST" duration-ms="332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TC07_ChangePassword -->
+      </class> <!-- TC08_AddAddress -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
