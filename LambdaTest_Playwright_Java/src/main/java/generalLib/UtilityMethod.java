@@ -63,5 +63,10 @@ public class UtilityMethod {
 	{
 		assertThat(ele).containsText(str);
 	}
+	
+	public void isEnabled(Locator ele)
+	{
+		assertThat(ele).isEnabled();
+	}
 
 }

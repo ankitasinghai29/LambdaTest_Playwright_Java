@@ -5,9 +5,9 @@
     <classes>
       <class name="TC09_EditDeleteAddress">
         <methods>
+          <include name="validateUserIsAbleToGetAddressBookField"/>
           <include name="OpenContextandPage"/>
           <include name="launchBrowser"/>
-          <include name="validateUserIsUnableToEditAddress_WithBlankField"/>
           <include name="closeBrowser"/>
           <include name="closeContextandPage"/>
         </methods>

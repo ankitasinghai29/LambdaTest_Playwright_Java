@@ -13,7 +13,6 @@ public class TC09_EditDeleteAddress extends Base {
 	EditDeleteAddressPage ap;
 	Faker fk = new Faker();
 	
-	
 	//Positive TC User is able to get valid data on edit address page
 	@Test
 	public void validateUserIsAbleSeeValidDataOnEditAddressPage() throws Throwable

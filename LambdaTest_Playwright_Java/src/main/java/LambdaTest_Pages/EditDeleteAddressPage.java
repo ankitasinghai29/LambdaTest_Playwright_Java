@@ -5,9 +5,12 @@ import java.util.Random;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 
+import generalLib.UtilityMethod;
+
 public class EditDeleteAddressPage {
 	Page page;
 	Random rad = new Random();
+	UtilityMethod um = new UtilityMethod(page);
 	
 	public EditDeleteAddressPage(Page page)
 	{
@@ -16,6 +19,20 @@ public class EditDeleteAddressPage {
 	public Locator getAddressBookIcon()
 	{
 		return page.getByText(" Modify your address book entries");
+	}
+	
+	public void getVisibityOfFields()
+	{
+		Locator ele = page.locator("table[class='table table-bordered table-hover']").locator("tbody").locator("tr");
+		int i=0;
+		Locator ele1 = ele.nth(i).locator("td").last();
+		while(ele1!=null)
+		{
+			um.isEnabled(ele1.getByText("Edit"));
+			um.isEnabled(ele1.getByText("Delete"));
+			i=i+1;
+			ele1 = ele.nth(i).locator("td").last();
+		}
 	}
 	
 	public Locator getSingleAddressField()
