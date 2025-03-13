@@ -6,6 +6,7 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.Page.ScreenshotOptions;
 import static com.microsoft.playwright.assertions.PlaywrightAssertions.assertThat;
+import static org.testng.Assert.assertEquals;
 
 public class UtilityMethod {
 	
@@ -51,6 +52,16 @@ public class UtilityMethod {
 	public void hasValue(Locator ele,String value)
 	{
 		assertThat(ele).hasValue(value);
+	}
+	
+	public void hasSameValue(String str1,String str2)
+	{
+		assertEquals(str1, str2);
+	}
+	
+	public void hasContains(Locator ele,String str)
+	{
+		assertThat(ele).containsText(str);
 	}
 
 }

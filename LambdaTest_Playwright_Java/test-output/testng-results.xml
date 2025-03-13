@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-12T16:11:41 IST" name="Default suite" finished-at="2025-03-12T16:12:14 IST" duration-ms="32682">
+  <suite started-at="2025-03-13T15:58:42 IST" name="Default suite" finished-at="2025-03-13T15:59:10 IST" duration-ms="28134">
     <groups>
     </groups>
-    <test started-at="2025-03-12T16:11:41 IST" name="Default test" finished-at="2025-03-12T16:12:14 IST" duration-ms="32682">
-      <class name="TC08_AddAddress">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:11:41 IST" name="launchBrowser" finished-at="2025-03-12T16:11:48 IST" duration-ms="6391" status="PASS">
+    <test started-at="2025-03-13T15:58:42 IST" name="Default test" finished-at="2025-03-13T15:59:10 IST" duration-ms="28134">
+      <class name="TC09_EditDeleteAddress">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T15:58:42 IST" name="launchBrowser" finished-at="2025-03-13T15:58:51 IST" duration-ms="9770" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:11:48 IST" name="OpenContextandPage" finished-at="2025-03-12T16:12:00 IST" duration-ms="11965" status="PASS">
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T15:58:51 IST" name="OpenContextandPage" finished-at="2025-03-13T15:58:56 IST" duration-ms="4764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsAbleToAddNewAddress_withValidData()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:00 IST" name="validateUserIsAbleToAddNewAddress_withValidData" finished-at="2025-03-12T16:12:13 IST" duration-ms="13401" status="PASS">
+        <test-method signature="validateUserIsUnableToDeleteAddress_IfOnlyOneAvailable()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T15:58:56 IST" name="validateUserIsUnableToDeleteAddress_IfOnlyOneAvailable" finished-at="2025-03-13T15:59:09 IST" duration-ms="12464" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUserIsAbleToAddNewAddress_withValidData -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:13 IST" name="closeContextandPage" finished-at="2025-03-12T16:12:14 IST" duration-ms="478" status="PASS">
+        </test-method> <!-- validateUserIsUnableToDeleteAddress_IfOnlyOneAvailable -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T15:59:09 IST" name="closeContextandPage" finished-at="2025-03-13T15:59:09 IST" duration-ms="711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC08_AddAddress@6cfe32cd]" started-at="2025-03-12T16:12:14 IST" name="closeBrowser" finished-at="2025-03-12T16:12:14 IST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T15:59:09 IST" name="closeBrowser" finished-at="2025-03-13T15:59:10 IST" duration-ms="360" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TC08_AddAddress -->
+      </class> <!-- TC09_EditDeleteAddress -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
