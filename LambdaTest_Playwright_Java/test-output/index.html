@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\ANKITA\AppData\Local\Temp\testng-eclipse-1647271861\testng-customsuite.xml</span>
+                    <span>C:\Users\ANKITA\AppData\Local\Temp\testng-eclipse-117572602\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method, 1 failed,   </span>
+                    <span class="method-stats">6 methods, 1 failed,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,10 +104,44 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="TC09_EditDeleteAddress" class="method navigator-link" hash-for-method="validateUserIsAbleToGetAddressBookField">validateUserIsAbleToGetAddressBookField</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validateUserIsUnableToAddItemIntoWishlist_WithoutLogin">validateUserIsUnableToAddItemIntoWishlist_WithoutLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validate1UserIsAbleToAddItemInWishlist_FromAllItemPage">validate1UserIsAbleToAddItemInWishlist_FromAllItemPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon">validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validate3UserIsAbleToAddItemInWishlist_FromItemPage">validate3UserIsAbleToAddItemInWishlist_FromItemPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validate4UserIsAbleToRemoveFromWishlist">validate4UserIsAbleToRemoveFromWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="TC10_WishList_Test" class="method navigator-link" hash-for-method="validateUserIsUnableToSeeWishlist_WithoutLogin">validateUserIsUnableToSeeWishlist_WithoutLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -122,26 +156,27 @@
           <div class="suite-Default_suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">TC09_EditDeleteAddress</span>
+              <span class="class-name">TC10_WishList_Test</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="validateUserIsAbleToGetAddressBookField">
-                  </a> <!-- validateUserIsAbleToGetAddressBookField -->
-                  <span class="method-name">validateUserIsAbleToGetAddressBookField</span>
-                  <div class="stack-trace">org.opentest4j.AssertionFailedError: Locator expected to be enabled
+                  <a name="validateUserIsUnableToAddItemIntoWishlist_WithoutLogin">
+                  </a> <!-- validateUserIsUnableToAddItemIntoWishlist_WithoutLogin -->
+                  <span class="method-name">validateUserIsUnableToAddItemIntoWishlist_WithoutLogin</span>
+                  <div class="stack-trace">org.opentest4j.AssertionFailedError: Locator expected to be visible
 Call log:
   - Locator.expect with timeout 5000ms
-  - waiting for locator(&quot;table[class=&apos;table table-bordered table-hover&apos;]&quot;).locator(&quot;tbody&quot;).locator(&quot;tr&quot;).nth(1).locator(&quot;td&quot;).last().getByText(&quot;Edit&quot;)
+  - waiting for locator(&quot;#notification-box-top&quot;)
+    9 × locator resolved to &lt;div id=&quot;notification-box-top&quot;&gt;&lt;/div&gt;
+      - unexpected value &quot;hidden&quot;
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
 	at com.microsoft.playwright.impl.LocatorAssertionsImpl.expectTrue(LocatorAssertionsImpl.java:402)
-	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isEnabled(LocatorAssertionsImpl.java:370)
-	at com.microsoft.playwright.assertions.LocatorAssertions.isEnabled(LocatorAssertions.java:655)
-	at generalLib.UtilityMethod.isEnabled(UtilityMethod.java:69)
-	at LambdaTest_Pages.EditDeleteAddressPage.getVisibityOfFields(EditDeleteAddressPage.java:31)
-	at TC09_EditDeleteAddress.validateUserIsAbleToGetAddressBookField(TC09_EditDeleteAddress.java:22)
+	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isVisible(LocatorAssertionsImpl.java:397)
+	at com.microsoft.playwright.assertions.LocatorAssertions.isVisible(LocatorAssertions.java:782)
+	at generalLib.UtilityMethod.isVisible(UtilityMethod.java:29)
+	at TC10_WishList_Test.validateUserIsUnableToAddItemIntoWishlist_WithoutLogin(TC10_WishList_Test.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -176,10 +211,53 @@ Call log:
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TC10_WishList_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate1UserIsAbleToAddItemInWishlist_FromAllItemPage">
+                  </a> <!-- validate1UserIsAbleToAddItemInWishlist_FromAllItemPage -->
+                  <span class="method-name">validate1UserIsAbleToAddItemInWishlist_FromAllItemPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon">
+                  </a> <!-- validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon -->
+                  <span class="method-name">validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate3UserIsAbleToAddItemInWishlist_FromItemPage">
+                  </a> <!-- validate3UserIsAbleToAddItemInWishlist_FromItemPage -->
+                  <span class="method-name">validate3UserIsAbleToAddItemInWishlist_FromItemPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate4UserIsAbleToRemoveFromWishlist">
+                  </a> <!-- validate4UserIsAbleToRemoveFromWishlist -->
+                  <span class="method-name">validate4UserIsAbleToRemoveFromWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserIsUnableToSeeWishlist_WithoutLogin">
+                  </a> <!-- validateUserIsUnableToSeeWishlist_WithoutLogin -->
+                  <span class="method-name">validateUserIsUnableToSeeWishlist_WithoutLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ANKITA\AppData\Local\Temp\testng-eclipse-1647271861\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ANKITA\AppData\Local\Temp\testng-eclipse-117572602\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -188,7 +266,7 @@ Call log:
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;TC09_EditDeleteAddress&quot;/&gt;
+      &lt;class name=&quot;TC10_WishList_Test&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -228,16 +306,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'validateUserIsAbleToGetAddressBookField')
-data.setCell(0, 2, 'TC09_EditDeleteAddress')
-data.setCell(0, 3, 20776);
+data.setCell(0, 1, 'validate3UserIsAbleToAddItemInWishlist_FromItemPage')
+data.setCell(0, 2, 'TC10_WishList_Test')
+data.setCell(0, 3, 30215);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validate1UserIsAbleToAddItemInWishlist_FromAllItemPage')
+data.setCell(1, 2, 'TC10_WishList_Test')
+data.setCell(1, 3, 28528);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon')
+data.setCell(2, 2, 'TC10_WishList_Test')
+data.setCell(2, 3, 24206);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateUserIsUnableToAddItemIntoWishlist_WithoutLogin')
+data.setCell(3, 2, 'TC10_WishList_Test')
+data.setCell(3, 3, 10397);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validate4UserIsAbleToRemoveFromWishlist')
+data.setCell(4, 2, 'TC10_WishList_Test')
+data.setCell(4, 3, 8698);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateUserIsUnableToSeeWishlist_WithoutLogin')
+data.setCell(5, 2, 'TC10_WishList_Test')
+data.setCell(5, 3, 1920);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -263,28 +361,88 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">TC09_EditDeleteAddress</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">TC10_WishList_Test</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">launchBrowser</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">OpenContextandPage</span>
-                <span class="method-start">9607 ms</span>
+                <span class="method-start">11674 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate1UserIsAbleToAddItemInWishlist_FromAllItemPage</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeContextandPage</span>
+                <span class="method-start">45952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenContextandPage</span>
+                <span class="method-start">46412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon</span>
+                <span class="method-start">51202 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeContextandPage</span>
+                <span class="method-start">75413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenContextandPage</span>
+                <span class="method-start">75800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate3UserIsAbleToAddItemInWishlist_FromItemPage</span>
+                <span class="method-start">80517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeContextandPage</span>
+                <span class="method-start">110733 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenContextandPage</span>
+                <span class="method-start">111042 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validate4UserIsAbleToRemoveFromWishlist</span>
+                <span class="method-start">116140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeContextandPage</span>
+                <span class="method-start">124841 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenContextandPage</span>
+                <span class="method-start">125240 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">validateUserIsAbleToGetAddressBookField</span>
-                <span class="method-start">16110 ms</span>
+                <span class="method-name">validateUserIsUnableToAddItemIntoWishlist_WithoutLogin</span>
+                <span class="method-start">129643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeContextandPage</span>
-                <span class="method-start">36911 ms</span>
+                <span class="method-start">140058 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">OpenContextandPage</span>
+                <span class="method-start">141223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserIsUnableToSeeWishlist_WithoutLogin</span>
+                <span class="method-start">146206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeContextandPage</span>
+                <span class="method-start">148127 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">37433 ms</span>
+                <span class="method-start">150267 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

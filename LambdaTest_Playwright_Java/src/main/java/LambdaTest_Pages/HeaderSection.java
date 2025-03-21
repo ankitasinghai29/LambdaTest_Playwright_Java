@@ -42,4 +42,20 @@ public class HeaderSection {
 		getmyAccount().hover();
 		page.click(" //span[text()[normalize-space()=\"Logout\"]]");
 	}
+	
+	public void clickOnWishListIcon()
+	{
+		page.locator("[aria-label='Wishlist']").click();
+	}
+	
+	public Locator getMegaMenu()
+	{
+		return page.getByText(" Mega Menu");
+	}
+	
+	public void clickonAppleItem()
+	{
+		getMegaMenu().hover();
+		page.locator("[title='Apple']").click();
+	}
 }

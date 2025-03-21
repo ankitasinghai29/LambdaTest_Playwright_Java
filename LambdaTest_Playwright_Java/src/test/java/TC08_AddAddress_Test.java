@@ -8,7 +8,7 @@ import generalLib.Base;
 import generalLib.LoginCommon;
 import generalLib.UtilityMethod;
 
-public class TC08_AddAddress extends Base
+public class TC08_AddAddress_Test extends Base
 {
 	UtilityMethod um;
 	AddAddressPage ap;

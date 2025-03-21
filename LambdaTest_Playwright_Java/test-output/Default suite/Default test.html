@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Mar 13 16:28:05 IST 2025</td>
+<td>Started on:</td><td>Fri Mar 21 16:48:28 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>38 seconds (38073 ms)</td>
+<tr><td>Total time:</td><td>151 seconds (151286 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,19 +75,20 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TC09_EditDeleteAddress.validateUserIsAbleToGetAddressBookField()'><b>validateUserIsAbleToGetAddressBookField</b><br>Test class: TC09_EditDeleteAddress</td>
-<td><div><pre>org.opentest4j.AssertionFailedError: Locator expected to be enabled
+<td title='TC10_WishList_Test.validateUserIsUnableToAddItemIntoWishlist_WithoutLogin()'><b>validateUserIsUnableToAddItemIntoWishlist_WithoutLogin</b><br>Test class: TC10_WishList_Test</td>
+<td><div><pre>org.opentest4j.AssertionFailedError: Locator expected to be visible
 Call log:
   - Locator.expect with timeout 5000ms
-  - waiting for locator(&quot;table[class=&apos;table table-bordered table-hover&apos;]&quot;).locator(&quot;tbody&quot;).locator(&quot;tr&quot;).nth(1).locator(&quot;td&quot;).last().getByText(&quot;Edit&quot;)
+  - waiting for locator(&quot;#notification-box-top&quot;)
+    9 × locator resolved to &lt;div id=&quot;notification-box-top&quot;&gt;&lt;/div&gt;
+      - unexpected value &quot;hidden&quot;
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
 	at com.microsoft.playwright.impl.LocatorAssertionsImpl.expectTrue(LocatorAssertionsImpl.java:402)
-	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isEnabled(LocatorAssertionsImpl.java:370)
-	at com.microsoft.playwright.assertions.LocatorAssertions.isEnabled(LocatorAssertions.java:655)
-	at generalLib.UtilityMethod.isEnabled(UtilityMethod.java:69)
-	at LambdaTest_Pages.EditDeleteAddressPage.getVisibityOfFields(EditDeleteAddressPage.java:31)
-	at TC09_EditDeleteAddress.validateUserIsAbleToGetAddressBookField(TC09_EditDeleteAddress.java:22)
+	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isVisible(LocatorAssertionsImpl.java:397)
+	at com.microsoft.playwright.assertions.LocatorAssertions.isVisible(LocatorAssertions.java:782)
+	at generalLib.UtilityMethod.isVisible(UtilityMethod.java:29)
+	at TC10_WishList_Test.validateUserIsUnableToAddItemIntoWishlist_WithoutLogin(TC10_WishList_Test.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -116,19 +117,20 @@ Call log:
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace52076202", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace52076202'><pre>org.opentest4j.AssertionFailedError: Locator expected to be enabled
+</pre></div><a href='#' onClick='toggleBox("stack-trace902860396", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace902860396'><pre>org.opentest4j.AssertionFailedError: Locator expected to be visible
 Call log:
   - Locator.expect with timeout 5000ms
-  - waiting for locator(&quot;table[class=&apos;table table-bordered table-hover&apos;]&quot;).locator(&quot;tbody&quot;).locator(&quot;tr&quot;).nth(1).locator(&quot;td&quot;).last().getByText(&quot;Edit&quot;)
+  - waiting for locator(&quot;#notification-box-top&quot;)
+    9 × locator resolved to &lt;div id=&quot;notification-box-top&quot;&gt;&lt;/div&gt;
+      - unexpected value &quot;hidden&quot;
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
 	at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
 	at com.microsoft.playwright.impl.LocatorAssertionsImpl.expectTrue(LocatorAssertionsImpl.java:402)
-	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isEnabled(LocatorAssertionsImpl.java:370)
-	at com.microsoft.playwright.assertions.LocatorAssertions.isEnabled(LocatorAssertions.java:655)
-	at generalLib.UtilityMethod.isEnabled(UtilityMethod.java:69)
-	at LambdaTest_Pages.EditDeleteAddressPage.getVisibityOfFields(EditDeleteAddressPage.java:31)
-	at TC09_EditDeleteAddress.validateUserIsAbleToGetAddressBookField(TC09_EditDeleteAddress.java:22)
+	at com.microsoft.playwright.impl.LocatorAssertionsImpl.isVisible(LocatorAssertionsImpl.java:397)
+	at com.microsoft.playwright.assertions.LocatorAssertions.isVisible(LocatorAssertions.java:782)
+	at generalLib.UtilityMethod.isVisible(UtilityMethod.java:29)
+	at TC10_WishList_Test.validateUserIsUnableToAddItemIntoWishlist_WithoutLogin(TC10_WishList_Test.java:97)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -158,8 +160,41 @@ Call log:
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>20</td>
-<td>TC09_EditDeleteAddress@6cfe32cd</td></tr>
+<td>10</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TC10_WishList_Test.validate3UserIsAbleToAddItemInWishlist_FromItemPage()'><b>validate3UserIsAbleToAddItemInWishlist_FromItemPage</b><br>Test class: TC10_WishList_Test</td>
+<td></td>
+<td>30</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
+<tr>
+<td title='TC10_WishList_Test.validate4UserIsAbleToRemoveFromWishlist()'><b>validate4UserIsAbleToRemoveFromWishlist</b><br>Test class: TC10_WishList_Test</td>
+<td></td>
+<td>8</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
+<tr>
+<td title='TC10_WishList_Test.validateUserIsUnableToSeeWishlist_WithoutLogin()'><b>validateUserIsUnableToSeeWishlist_WithoutLogin</b><br>Test class: TC10_WishList_Test</td>
+<td></td>
+<td>1</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
+<tr>
+<td title='TC10_WishList_Test.validate1UserIsAbleToAddItemInWishlist_FromAllItemPage()'><b>validate1UserIsAbleToAddItemInWishlist_FromAllItemPage</b><br>Test class: TC10_WishList_Test</td>
+<td></td>
+<td>28</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
+<tr>
+<td title='TC10_WishList_Test.validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon()'><b>validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon</b><br>Test class: TC10_WishList_Test</td>
+<td></td>
+<td>24</td>
+<td>TC10_WishList_Test@35aea049</td></tr>
 </table><p>
 </body>
 </html>

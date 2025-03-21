@@ -7,7 +7,7 @@ import generalLib.Base;
 import generalLib.LoginCommon;
 import generalLib.UtilityMethod;
 
-public class TC09_EditDeleteAddress extends Base {
+public class TC09_EditDeleteAddress_Test extends Base {
 
 	UtilityMethod um;
 	EditDeleteAddressPage ap;

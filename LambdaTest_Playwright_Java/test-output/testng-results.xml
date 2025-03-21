@@ -1,41 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-13T16:28:05 IST" name="Default suite" finished-at="2025-03-13T16:28:43 IST" duration-ms="38073">
+  <suite started-at="2025-03-21T16:48:28 IST" name="Default suite" finished-at="2025-03-21T16:51:00 IST" duration-ms="151286">
     <groups>
     </groups>
-    <test started-at="2025-03-13T16:28:05 IST" name="Default test" finished-at="2025-03-13T16:28:43 IST" duration-ms="38073">
-      <class name="TC09_EditDeleteAddress">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T16:28:05 IST" name="launchBrowser" finished-at="2025-03-13T16:28:15 IST" duration-ms="9588" status="PASS">
+    <test started-at="2025-03-21T16:48:28 IST" name="Default test" finished-at="2025-03-21T16:51:00 IST" duration-ms="151286">
+      <class name="TC10_WishList_Test">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:48:29 IST" name="launchBrowser" finished-at="2025-03-21T16:48:40 IST" duration-ms="11638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T16:28:15 IST" name="OpenContextandPage" finished-at="2025-03-13T16:28:22 IST" duration-ms="6501" status="PASS">
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:48:40 IST" name="OpenContextandPage" finished-at="2025-03-21T16:48:46 IST" duration-ms="5741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenContextandPage -->
-        <test-method signature="validateUserIsAbleToGetAddressBookField()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T16:28:22 IST" name="validateUserIsAbleToGetAddressBookField" finished-at="2025-03-13T16:28:42 IST" duration-ms="20776" status="FAIL">
+        <test-method signature="validate1UserIsAbleToAddItemInWishlist_FromAllItemPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:48:46 IST" name="validate1UserIsAbleToAddItemInWishlist_FromAllItemPage" finished-at="2025-03-21T16:49:14 IST" duration-ms="28528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate1UserIsAbleToAddItemInWishlist_FromAllItemPage -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:14 IST" name="closeContextandPage" finished-at="2025-03-21T16:49:15 IST" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextandPage -->
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:15 IST" name="OpenContextandPage" finished-at="2025-03-21T16:49:20 IST" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContextandPage -->
+        <test-method signature="validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:20 IST" name="validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon" finished-at="2025-03-21T16:49:44 IST" duration-ms="24206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate2UserIsAbleToRemoveFromWishlist_AfterDeselectingIcon -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:44 IST" name="closeContextandPage" finished-at="2025-03-21T16:49:44 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextandPage -->
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:44 IST" name="OpenContextandPage" finished-at="2025-03-21T16:49:49 IST" duration-ms="4717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContextandPage -->
+        <test-method signature="validate3UserIsAbleToAddItemInWishlist_FromItemPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:49:49 IST" name="validate3UserIsAbleToAddItemInWishlist_FromItemPage" finished-at="2025-03-21T16:50:19 IST" duration-ms="30215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate3UserIsAbleToAddItemInWishlist_FromItemPage -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:19 IST" name="closeContextandPage" finished-at="2025-03-21T16:50:20 IST" duration-ms="309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextandPage -->
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:20 IST" name="OpenContextandPage" finished-at="2025-03-21T16:50:25 IST" duration-ms="5098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContextandPage -->
+        <test-method signature="validate4UserIsAbleToRemoveFromWishlist()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:25 IST" name="validate4UserIsAbleToRemoveFromWishlist" finished-at="2025-03-21T16:50:33 IST" duration-ms="8698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate4UserIsAbleToRemoveFromWishlist -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:33 IST" name="closeContextandPage" finished-at="2025-03-21T16:50:34 IST" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextandPage -->
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:34 IST" name="OpenContextandPage" finished-at="2025-03-21T16:50:38 IST" duration-ms="4403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContextandPage -->
+        <test-method signature="validateUserIsUnableToAddItemIntoWishlist_WithoutLogin()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:38 IST" name="validateUserIsUnableToAddItemIntoWishlist_WithoutLogin" finished-at="2025-03-21T16:50:49 IST" duration-ms="10397" status="FAIL">
           <exception class="org.opentest4j.AssertionFailedError">
             <message>
-              <![CDATA[Locator expected to be enabled
+              <![CDATA[Locator expected to be visible
 Call log:
   - Locator.expect with timeout 5000ms
-  - waiting for locator("table[class='table table-bordered table-hover']").locator("tbody").locator("tr").nth(1).locator("td").last().getByText("Edit")]]>
+  - waiting for locator("#notification-box-top")
+    9 × locator resolved to <div id="notification-box-top"></div>
+      - unexpected value "hidden"]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.opentest4j.AssertionFailedError: Locator expected to be enabled
+              <![CDATA[org.opentest4j.AssertionFailedError: Locator expected to be visible
 Call log:
   - Locator.expect with timeout 5000ms
-  - waiting for locator("table[class='table table-bordered table-hover']").locator("tbody").locator("tr").nth(1).locator("td").last().getByText("Edit")
+  - waiting for locator("#notification-box-top")
+    9 × locator resolved to <div id="notification-box-top"></div>
+      - unexpected value "hidden"
 at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:69)
 at com.microsoft.playwright.impl.AssertionsBase.expectImpl(AssertionsBase.java:51)
 at com.microsoft.playwright.impl.LocatorAssertionsImpl.expectTrue(LocatorAssertionsImpl.java:402)
-at com.microsoft.playwright.impl.LocatorAssertionsImpl.isEnabled(LocatorAssertionsImpl.java:370)
-at com.microsoft.playwright.assertions.LocatorAssertions.isEnabled(LocatorAssertions.java:655)
-at generalLib.UtilityMethod.isEnabled(UtilityMethod.java:69)
-at LambdaTest_Pages.EditDeleteAddressPage.getVisibityOfFields(EditDeleteAddressPage.java:31)
-at TC09_EditDeleteAddress.validateUserIsAbleToGetAddressBookField(TC09_EditDeleteAddress.java:22)
+at com.microsoft.playwright.impl.LocatorAssertionsImpl.isVisible(LocatorAssertionsImpl.java:397)
+at com.microsoft.playwright.assertions.LocatorAssertions.isVisible(LocatorAssertions.java:782)
+at generalLib.UtilityMethod.isVisible(UtilityMethod.java:29)
+at TC10_WishList_Test.validateUserIsUnableToAddItemIntoWishlist_WithoutLogin(TC10_WishList_Test.java:97)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -69,16 +120,28 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.opentest4j.AssertionFailedError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUserIsAbleToGetAddressBookField -->
-        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T16:28:42 IST" name="closeContextandPage" finished-at="2025-03-13T16:28:43 IST" duration-ms="512" status="PASS">
+        </test-method> <!-- validateUserIsUnableToAddItemIntoWishlist_WithoutLogin -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:49 IST" name="closeContextandPage" finished-at="2025-03-21T16:50:50 IST" duration-ms="1165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeContextandPage -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC09_EditDeleteAddress@6cfe32cd]" started-at="2025-03-13T16:28:43 IST" name="closeBrowser" finished-at="2025-03-13T16:28:43 IST" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="OpenContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:50 IST" name="OpenContextandPage" finished-at="2025-03-21T16:50:55 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenContextandPage -->
+        <test-method signature="validateUserIsUnableToSeeWishlist_WithoutLogin()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:55 IST" name="validateUserIsUnableToSeeWishlist_WithoutLogin" finished-at="2025-03-21T16:50:57 IST" duration-ms="1920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserIsUnableToSeeWishlist_WithoutLogin -->
+        <test-method is-config="true" signature="closeContextandPage()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:57 IST" name="closeContextandPage" finished-at="2025-03-21T16:50:59 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeContextandPage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TC10_WishList_Test@35aea049]" started-at="2025-03-21T16:50:59 IST" name="closeBrowser" finished-at="2025-03-21T16:51:00 IST" duration-ms="981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TC09_EditDeleteAddress -->
+      </class> <!-- TC10_WishList_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
