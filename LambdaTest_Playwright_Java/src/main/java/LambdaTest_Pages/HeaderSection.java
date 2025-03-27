@@ -48,6 +48,12 @@ public class HeaderSection {
 		page.locator("[aria-label='Wishlist']").click();
 	}
 	
+	public void getCartIcon()
+	{
+		Locator ele = page.locator(".cart-icon").first();
+		ele.click(new Locator.ClickOptions().setForce(true));
+	}
+	
 	public Locator getMegaMenu()
 	{
 		return page.getByText(" Mega Menu");
@@ -58,4 +64,5 @@ public class HeaderSection {
 		getMegaMenu().hover();
 		page.locator("[title='Apple']").click();
 	}
+	
 }

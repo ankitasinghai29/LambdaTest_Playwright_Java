@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC10_WishList_Test">
+      <class name="TC11_AddToCart_Test">
         <methods>
-          <include name="validateUserIsUnableToAddItemIntoWishlist_WithoutLogin"/>
           <include name="OpenContextandPage"/>
           <include name="launchBrowser"/>
+          <include name="validateUserIsAbleToEditItemQuantity_FromCartPage"/>
           <include name="closeBrowser"/>
           <include name="closeContextandPage"/>
         </methods>
-      </class> <!-- TC10_WishList_Test -->
+      </class> <!-- TC11_AddToCart_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
